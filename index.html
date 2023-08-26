@@ -1,0 +1,62 @@
+<!-- Waleed Khan (June 10, 2023) -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W.K. Smoothie Bar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="_scripts/script.js"></script>
+  </head>
+<body>
+    <header>
+        <h1>Waleed's Smoothie Bar</h1>
+    </header>
+    <main>
+        <section class="smoothies-group">
+            <div class="smoothie1">
+                <center>
+                <h2>Mango Fusion ($11.99)</h2>
+                <img src="https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/08/Mango-Smoothie-3-2.jpg" alt="Mango Fusion" class="smoothie-image">
+                <button class="add-to-cart" onclick="askQuantity('Mango Fusion')">Add to Cart</button>
+                </center>
+            </div>
+
+            <div class="smoothie2">
+                <center>
+                <h2>Banana Freeze ($9.99)</h2>
+                <img src="https://www.somewhatsimple.com/wp-content/uploads/2022/08/banana-smoothie-breakfast.jpg" alt="Banana Freeze" class="smoothie-image">
+                <button class="add-to-cart" onclick="askQuantity('Banana Freeze')">Add to Cart</button>
+                </center>
+            </div>
+
+            <div class="smoothie3">
+                <center>
+                <h2>Leafy Kale ($8.99)</h2>
+                <img src="https://fraicheliving.com/wp-content/uploads/2021/01/fraiche-living-tropical-green-smoothie.jpg" alt="Leafy Kale" class="smoothie-image">
+                <button class="add-to-cart" onclick="askQuantity('Leafy Kale')">Add to Cart</button>
+                </center>
+            </div>
+
+            <div class="smoothie4">
+                <center>
+                <h2>Tangy Orange ($7.99)</h2>
+                <img src="https://www.slenderkitchen.com/sites/default/files/styles/gsd-1x1/public/recipe_images/orange-creamsicle-smoothie-5.jpg" alt="Tangy Orange" class="smoothie-image">
+                <button class="add-to-cart" onclick="askQuantity('Tangy Orange')">Add to Cart</button>
+                </center>
+            </div>
+
+            <div class="smoothie5">
+                <center>
+                <h2>Tropical Pineapple-Strawberry ($12.99)</h2>
+                <img src="https://www.eatingwell.com/thmb/UV81E2hXkORNWJQufv7S4mNYRu8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6440442-542d8674072440f2b10e8da6f806af11.jpg" alt="Tropical Pineapple-Strawberry" class="smoothie-image">
+                <button class="add-to-cart" onclick="askQuantity('Tropical Pineapple-Strawberry')">Add to Cart</button>
+                </center>
+            </div>
+        </section>
+        <button class="checkout" onclick="askCustName()">Checkout</button>
+        <div id="cart-menu">
+            <h3>---------- YOUR CART ----------</h3>
+            <ul id="cart-items-list"></ul>
+        </div>
+    </main>
+</body>
+</html>
